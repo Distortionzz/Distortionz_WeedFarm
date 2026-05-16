@@ -1,0 +1,6 @@
+{
+    "version": "1.0.5",
+    "name": "distortionz_weedfarm",
+    "download": "https://github.com/Distortionzz/Distortionz_WeedFarm",
+    "changelog": "v1.0.5 — ADDED: feeds distortionz_cad as a live dispatch call (priority 2) on the street-deal heat path, guarded by resource state (no-op without CAD). v1.0.4 — FIX: deal hand-off prop prop_paper_bag_01 → bkr_prop_weed_bag_01a (the big bag engulfed the buyer). v1.0.3 — ADDED: configurable hand-off bag prop (Config.Sell.bag). v1.0.2 — CHANGED: dz_joint uses stock scully_emotemenu 'joint' emote w/ TaskPlayAnim fallback. v1.0.1 — FIX: plant ground-snap + diagnostics; harvest distance 2.0→2.5. v1.0.0 — Initial release: grow field harvest → weed_nugget, /rolljoint → dz_joint, smoke fires stock hud:server:RelieveStress, /sellweed cornersell NPC dealing for black_money, configurable police heat, notify wrapper + version checker."
+}
