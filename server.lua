@@ -213,3 +213,14 @@ end)
 AddEventHandler('playerDropped', function()
     lastDeal[source] = nil
 end)
+
+CreateThread(function()
+    Wait(1000)
+    print(('^5[%s]^7 ^2v%s loaded — plants=%d sell=/%s heat=%s^7'):format(
+        Config.ResourceName,
+        Config.CurrentVersion,
+        #Config.Field.plants,
+        Config.Sell.command,
+        tostring(Config.Heat.enabled)
+    ))
+end)
